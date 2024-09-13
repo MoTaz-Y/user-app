@@ -1,24 +1,48 @@
-.card-img-top {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 1px solid #280f63;
-    border-radius: 50%;
-  }
-  
-  .card-body {
-    text-align: center;
-    
-  }
-  
-  .badge {
-    padding: 0.5em 1em;
-    font-size: 1rem;
-  }
+.card {
+  border: none;
+  background: linear-gradient(135deg, #ffffff, #e6e6e6);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.3s ease;
+  height: 500px;
+}
 
-  .card{
-    border: 1px solid #280f63;
-    background-color: #e4e4e4;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-img-top {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 4px solid #ff8a00;
+  border-radius: 50%;
+  margin-top: -60px;
+  background-color: white;
+}
+
+.badge {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  background-color: #ff8a00;
+  color: #fff;
+  border-radius: 50px;
+}
